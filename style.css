@@ -40,10 +40,11 @@ body {
 
 }
 
-#sidebar i > a {
+#sidebar a > i {
   font-size: 30px;
    list-style-type: none;
-     margin-top: 100px;
+     margin-top: 50px;
+     margin-left: 27px;
      text-align: center;
 
 }
