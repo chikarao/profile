@@ -10,7 +10,16 @@
 </head>
 <body>
 
-<div class="box-format">
+<div id="sidebar">
+  <ul class="list">
+    <li><a href="#info"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+    <li><a href="#sns"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+    <li><a href="#favorite"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+     <li><a href="#share"><i class="fa fa-folder" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+
+<div class="box-format" id="info">
   <img src="images/co-profile.jpg" alt="" class = "avatar">
   <h1 id="title">Chikara Okada</h1>
   <h2>wagoner at le wagon tokyo</h2>
@@ -19,8 +28,11 @@
   </div>
 
 
+<div class="page-content">
 
-<div class="box-format">
+</div>
+
+<div class="box-format" id="sns">
  <ul class="sns-list list-inline">
     <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
     <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
@@ -29,7 +41,7 @@
   </ul>
 </div>
 
-<div class="box-format">
+<div class="box-format" id=favorite>
  <p class="text-center">My favorite things:</p>
  <table>
    <tbody>
@@ -58,7 +70,7 @@
  </table>
 
 </div>
-<div class="box-format">
+<div class="box-format" id="share">
   <ul class="list-inline user-icons">
 
   <li class="footer-text"><a href=""><i class="fa fa-heart"></i></a></li>
